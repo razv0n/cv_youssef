@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mon cv</title>
+    <title>Mon CV</title>
     <link rel="stylesheet" href="media.css" />
     <link rel="stylesheet" href="cv.css" />
   </head>
@@ -13,9 +13,9 @@
       <div class="logo">YOUSSEF ELMSAHEL</div>
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#experience">Expérience</a></li>
+          <li><a href="#projects">Projets</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -29,57 +29,48 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#about" onclick="toggleMenu()">À propos</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Expérience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projets</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="tes.jpg" alt="John Doe profile picture" />
+        <img src="profile2-modified.png" alt="Photo de profil de John Doe" />
       </div>
       <div class="section__text">
-        <p class="section__text__p1">BONJOUR,JE SUIS
-        </p>
+        <p class="section__text__p1">BONJOUR, JE SUIS</p>
         <h1 class="title">YOUSSEF ELMSAHEL</h1>
-        <p class="section__text__p2">ETUDIENT LAFAC</p>
+        <p class="section__text__p2">ÉTUDIANT À LA FAC</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('.pdf')" 
           >
-            Download CV
+            Télécharger CV
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
+            Infos Contact
           </button>
         </div>
         <div id="socials-container">
           <img
-            src="./assets/linkedin.png"
+            src="linkdin.jpg"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onclick="location.href='https://linkedin.com/in/lamsahel-youssef-b5a83b310'"
           />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/'"
-          />
-        </div>
-      </div>
     </section>
     <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
+      <p class="section__text__p1">En savoir plus</p>
+      <h1 class="title">À propos de moi</h1>
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about-pic.png"
-            alt="Profile picture"
+            src="profile2-modified.png"
+            alt="Photo de profil"
             class="about-pic"
           />
         </div>
@@ -87,281 +78,208 @@
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="./assets/experience.png"
-                alt="Experience icon"
+                src="EXPRINCE.jpg"
+                alt="Icône d'expérience"
                 class="icon"
               />
-              <h3>Experience</h3>
-              <p>INFO <br />INFO</p>
+              <h3>Expérience</h3>
+              <p>Volunteer in AlCS<br /></p>
             </div>
             <div class="details-container">
               <img
-                src="OIP.jpg"
-                alt="Education icon"
+                src="LAFACLOGO.png"
+                alt="Icône d'éducation"
                 class="icon"
               />
-              <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <h3>Éducation</h3>
+              <p>BAC<br />ÉTUDIANT À LA FAC</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              Youssef Almsahel est un étudiant de 20 ans actuellement inscrit à la 
+              Faculté, où il se spécialise en  chimie analytique . Passionné 
+              par les sciences et la technologie depuis son jeune âge, Youseef a toujours été fasciné par 
+              la manière dont chimie alimente notre monde moderne.
             </p>
           </div>
         </div>
       </div>
-      <img
-        src="OIP.jpg"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
     </section>
     <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <p class="section__text__p1">Découvrez mon</p>
+      <h1 class="title">Expérience</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Analyse de Données</h2> 
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  src="analyze.png"
+                  alt="Icône d'expérience"
                   class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
+                  <h3>Traitement des données</h3>
+                  <p>Expérimenté</p>
+                </div>
+              </article>
+               <article>
+                <img
+                  src="LOGOCIAIL.png"
+                  alt="Icône d'expérience"
+                  class="icon"
+                />
+                <div>
+                  <h3>Logiciels de traitement de données</h3>
+                  <p>Expérimenté</p>
+                </div>
+              </article>
+               <article>
+                <img
+                  src="CHEMSTATION.jpg"
+                  alt="Icône d'expérience"
+                  class="icon"
+                />
+                <div>
+                  <h3>ChemStation</h3>
+                  <p>Débutant</p>
+                </div>
+              </article>
+               <article>
+               <img
+                  src="ORIGIN.jpg"
+                  alt="Icône d'expérience"
+                  class="icon"
+                />
+                <div>
+                  <h3>OriginLab </h3>
+                  <p>Débutant</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  src="EXEL.png"
+                  alt="Icône d'expérience"
                   class="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
+                  <h3>Excel</h3>
+                  <p>Intermédiaire</p>
                 </div>
               </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
+            </div>   
+          </div> 
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Techniques statistique et Méthodes de Séparation</h2>
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  src="tlc.png"
+                  alt="Icône d'expérience"
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
+                  <h3>Chromatographie sur couche mince (TLC)</h3>
+                  <p>Débutant</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  src="liniere.png"
+                  alt="Icône d'expérience"
                   class="icon"
                 />
                 <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
+                  <h3>Régression linéaire</h3>
+                  <p>Intermédiaire</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  src="acp.jpg"
+                  alt="Icône d'expérience"
                   class="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
+                  <h3>Analyse en composantes principales (ACP) </h3>
+                  <p>Intermédiaire</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  src="anova2.png"
+                  alt="Icône d'expérience"
                   class="icon"
                 />
                 <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <h3>Analyse de variance (ANOVA)</h3>
+                  <p>Intermédiaire</p>
                 </div>
               </article>
             </div>
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
     </section>
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
+      <p class="section__text__p1">Parcourez mes récents</p>
+      <h1 class="title">Projets</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
-                alt="Project 1"
+                src="pixlr-image-generator-3dd67776-93c1-4e60-bcaf-bfd1256684a2.png"
+                alt="Projet 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
+            <h2 class="experience-sub-title project-title">Détection de traces de métaux lourds dans l'eau </h2>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
-                alt="Project 2"
+                src="pixlr-image-generator-c332ceb2-093f-4e75-ad22-fb8f89fdac81.png"
+                alt="Projet 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
+            <h2 class="experience-sub-title project-title">Identification des composés organiques dans les échantillons biologiques</h2>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
-                alt="Project 3"
+                src="pixlr-image-generator-24c49a51-f3dd-491a-a127-fd0fb1bcfe7a.png"
+                alt="Projet 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
+            <h2 class="experience-sub-title project-title">Analyse de la composition des produits pharmaceutiques</h2>
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
     </section>
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
+      <p class="section__text__p1">Entrer en contact</p>
+      <h1 class="title">Contactez-moi</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
-            src="./assets/email.png"
-            alt="Email icon"
+            src="email_logojpg.jpg"
+            alt="Icône email"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:Sanj1as33@gmail.com">Sanj1as33@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
+            src="linkdin.jpg"
+            alt="Icône LinkedIn"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://linkedin.com/in/lamsahel-youssef-b5a83b310">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -369,14 +287,14 @@
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#experience">Expérience</a></li>
+            <li><a href="#projects">Projets</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 YOUSSEF ALMSAHEL. All Rights Reserved.</p>
+      <p>Copyright &#169; 2024 YOUSSEF ELMSAHEL. Tous droits réservés.</p>
     </footer>
   </body>
 </html>
